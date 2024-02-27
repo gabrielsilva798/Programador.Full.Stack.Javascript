@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT</title>
+</head>
+<body>
+    <h3>Encontre</h3>
+    <form action="http://www.exemplo.com">
+        <input type="text" name="fistname"><br>
+
+         <!--type="password" : serve para senhas, oculta o que está sendo digitado-->
+        <input type="password" name="senha"><br>
+
+        <input type="submit" name="senha"><br> <!--type="submit": usada para criar BOTÃO-->
+
+        <!--TYPE="RADIO": server para criar opções selecionáveis, o LABEL é para dar título 
+            a essas opções
+        
+        eles precisam ter o mesmo NAME, pq vai ser enviado para o beckend-->
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+
+        <!--type="checkbox": igual o RADIO, mas vc pode selecionar várias opções-->
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label> <br>
+        
+        <!--type="color": cria um botão para voce escolher uma cor.-->
+        <input type="color" name="favcolor"><br>
+
+        <!--Tem os type DATE, DATETIME, DATETIME-LOCA, TIME-->
+        <input type="date" name="sódata"><br>
+        <input type="datetime" name="datetempo"><br>
+        <input type="time" name="tempo"><br>
+        <input type="datetime-local" name="datetempolocal"><br>
+        
+        <!--FILE para enviar arquivo-->
+        <input type="file" name="arquivo"><br>
+
+        <!--SEARCH: usado para pesquisar algo na página ou fora dela-->
+        <input type="search" name="pesquisa"><br>
+    </form>
+</body>
+</html>
