@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h>Encontre no Google</h3>
+    <form action="http://www.google.com/search" autocomplete="on">
+        <label for="q">O que deseja pesquisar?</label> <!--REQUIRED: torna o campo obrigatório-->
+        <input type="text" id="q" name="q" placeholder="lugar para eu digitar" >
+         <!--TYPE email: tem validações próprias internas, verificando se foi digitado @-->
+        <input type="email" id="q" name="q" placeholder="validacao tipo email"> 
+        <!--só permite numeros e a letra "E"(para notação cientifica, também cria um scroll)-->
+        <input type="number" id="q" name="q" placeholder="lugar para eu digitar somente números" 
+        min="10" max="30">        <!--MIN e MAX para definir range "-->
+        <input type="submit" value="Pesquise">
+
+        First Name: <input type="text"><br>
+        Last Name: <input type="text"><br>
+        E-Mail: <input type="text" autocomplete="off"><br>
+        <!--AUTOCOMPLETE: autocompleta com dados do browser-->
+
+        <!--DATALIST: para ter uma lista do que pode ser inserido
+            para chamar a lista eu passo o LIST com o ID da DATALIST-->
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+    </form>
+</body>
+</html>
