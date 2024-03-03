@@ -1,0 +1,41 @@
+li {
+    background-color: grey; /*BACKGROUND-COLOR: muda o fundo do elemento selecionado*/
+}
+
+h1 {
+    font-size: 590%;
+
+    /*BORDER-COLOR: usado para dar uma cor a borda
+     *ela não aprece porque por padrão o tamanho dela é ZERO*/
+    border-color: yellow;
+
+    /*BORDER-WIDTH para definir o tamanho da borda*/
+    border-width: 8;
+
+    /*BORDER-STYLE para definir o estilo da borda (dashed = pontilhda)*/
+    border-style: dashed;
+
+}
+
+/*posso mudar todo o BODY da página.*/
+body {
+    background-color: gray;
+
+    /*1º tamanho    2º style         3º a cor
+    acima eu passei isso mas de forma separada, aqui é tudo em unica tag*/
+    border: 2px solid rgb(34, 211, 238) 
+}
+
+/*BACKGROUND-IMAGE: coloca uma imagem estática no fundo do elemento
+* o lik da imagem (SE FOR DA INTENET) é colocado dentro URL('aqui')*/
+body {
+    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/33477_5F4E8D17CA9A2B02-1.jpg?w=1200&h=675&crop=1');
+   
+    /*por padrão a imagem fica se repetindo na página, para desativar basta 
+    *colocar background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
+    
+    /*BACKGROUND-SIZE: COVER vai ajusta a imagem AUTOMATICAMENTE para cabé no página.*/
+    background-size: cover;
+}
+
