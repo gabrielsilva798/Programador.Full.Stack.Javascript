@@ -1,0 +1,47 @@
+/*ASTERÍSTICO: quando vc quer aplicar uma formatação em todos os elementos 
+ *raro de ser usado pq raramente voce irá querer usar a mesma formatação em todo os elementos*/
+* {
+    border: 2px solid;
+}
+
+/*SELETOR DE DESCEDÊNCIA: aplia o CSS a elementos dentro do outro
+* aqui eu apliquei a todas as tags A dentro da tag LI
+* não precisa ser filha direta, pode ter várias tags antes, exe: li > div > a*/
+li a{
+    color: blue;
+    background-color: rgb(223, 246, 74);
+    font-size: 20px;
+}
+
+/*SELETOR DE DESCENDÊNCIA DIRETA: tem que ser uma tag filha, tem que colocar o MAIOR >
+diferente do de cima, só funciona se for descendência direta, ex: li > a, sem nada no meio*/
+li > a{
+    color: rgb(255, 0, 0);
+    background-color: rgb(97, 251, 46);
+    font-size: 30px;
+}
+
+/*SELETOR ADJASCETE: tem que ser uma tag que vier logo depois de outra, LOGO EM SEGUIDA
+ *aqui toda tag H4 que vier depois de uma tag H1 recebe a formatação
+ *NÃO PODE TER NENHUMA TAG ENTRE ELAS, TEM QUE SER LOGO EM SEGUIDA*/
+h1 + h4 {
+    border: 4px dashed;
+}  
+
+/*SELETOR DE ATRIBUTO: para atributos das tags e seus arguementos
+ *voce coloca o a tag e o atributo entre COLCHETES[], se tiver argumento coloque ele*/
+a[href='/recibo'] {
+    color: green;
+    background-color: plum;
+}
+
+/*:NTH-OF-TYPE(number) para passar o CSS em uma tag de certa posição
+ * aqui no ex: onde tem uma sequência de LI dentro de uma tag mãe,
+ * o 2º LI vai receber a formatação
+ *          posso passar como parâmetro o ODD e o EVEN para selecionar todos os Li com posições
+ *          ímpares e pares.*/
+li:nth-of-type() {
+    border: 2px;
+    border-color: rgb(38, 108, 219);
+    border-style: dashed;
+}

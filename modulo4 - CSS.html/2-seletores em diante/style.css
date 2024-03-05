@@ -1,0 +1,23 @@
+/*                       CLASS: para mudar um conjunto de elementos com o mesmo CSS
+ *class serve para aplicar CSS em partes específicas.
+ *para usar uma clase eu coloco PONTO( . )
+ *
+ *
+ *                       ID: para mudar elementos em específicos
+ *é usado o HASHTAG( # ) para mudar o valor de um ID.
+ */
+.moon {
+    color: orange;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+/*nomes das CLASS tem que ser auto-explicativo*/
+.big-text {
+    font-size: 40px;
+}
+
+#europa-text {
+    font-size: 10px;
+    color: blue;
+}

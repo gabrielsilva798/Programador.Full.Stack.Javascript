@@ -1,0 +1,18 @@
+/*HERANCA: todas as tags dentro da DIV vão receber o CSS*/
+div {
+    color: blue;
+    border: 2px solid;
+}
+
+/*                        argumento INHERIT
+ *serve para uma tag filha herde a formatação do pai
+ *a UL vai herdar a a border já configurada na tag pai DIV*/
+ div ul{
+    border: inherit;
+ }
+
+/*eu posso passar o caminho
+ *lI dentro do UL dentro da DIV */
+div ul li {
+    color: red;
+}
