@@ -1,0 +1,17 @@
+p {
+    font-family: Arial, Helvetica, sans-serif; /*defini fontes já padronizadas
+    se o navegador, não suportar a primeira ele tenta a segunda e assim vai.*/
+
+    font-size: 18px; /*defini o tamanho da fonte.*/
+
+    font-weight: 400; /*defini a força da fonte, 0 = normal, 600=Negrito*/
+
+    line-height: 1.5; /*defini o espaçamento entre linhas*/
+}
+
+h1 {
+    text-align: center; /*para colocar, CENTRALIZADO, JUSTIFICADO, LEFT, RIGHT*/
+
+    text-decoration: line-through; /*permir colocar elementos, UNDELINE, linha em cima do
+                                    texto*/
+}
