@@ -1,0 +1,29 @@
+/*                   MARGIN > BORDER > PADDING > CONTEÚDO*/
+
+/*MARGIN-(top, left, bottom, right) para definir a margem do elemento nas 4 posições*/
+h1 {
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+/*COLOCANDO TUDO DE UMA VEZ
+ *1º TOP, 2º RIGHT, 3º BOTTOM, 4º LEFT        
+ * AUTO: imitar a margem contrária, LEFT/RIGHT, TOP/BOTTOM*/
+h2 {
+    margin: 45px auto 300px 120px;
+    border: 2px solid orange;
+}
+
+/*WIDTH: defini quanto da largura da tela o elemento vai usar, largura ele não meche na altura*/
+p {
+    width: 50%;
+}
+
+/*PADDING: espaço que vai entre o BORDER e o conteúdo
+ 1º TOP, 2º RIGHT, 3º BOTTOM, 4º LEFT 
+ */
+h2 {
+    padding: 20px 30px 60px 45px;
+}
