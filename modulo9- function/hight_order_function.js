@@ -1,6 +1,6 @@
 //        FUNÇÃO DE ALTA CLASSE
 // Ela recebe e retorna outras funções
-// funções quee são enviadas como PARÂMETROS dela são chamadas de CALLBACK.
+// FUNCTION que são enviadas como PARÂMETROS dela são chamadas de CALLBACK.
 
 //é esperado que a variável printer receba uma função
 //          O PRINTER RECEBE O NOME DE CALLBACK
