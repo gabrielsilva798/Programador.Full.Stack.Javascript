@@ -18,6 +18,7 @@ while (isAcceleration == 1){
         let newVelocity = parseFloat(prompt("Quanto voce quer acelerar a nave? "))
         spaceship.acceleration(newVelocity)
         if(spaceship.velocity > spaceship.maxVelocity){
+            spaceship.velocity -= newVelocity;
             alert("VELOCIDADE MÁXIMA NÃO PODE SER EXEDIDA: \n" + spaceship.maxVelocity
                 + "\nNome da nave: " + spaceship.name + "\nTipo da nave: " + spaceship.type 
                 + "\nvelocidade atual: " + spaceship.velocity);
